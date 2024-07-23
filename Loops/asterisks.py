@@ -13,5 +13,6 @@
     It should look like this but with 25 rows total.
 '''
 
+
 for i in range(25):
-  print('* ' * i)
+    print('* ' * i)
