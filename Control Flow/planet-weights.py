@@ -22,4 +22,32 @@
     7	Neptune	1.14
     If the user enters a planet number outside of 1 - 7, print a message that says 'Invalid planet number'.
 '''
+# Codedex Version
 
+earth_weight = float(input("What is your Earth weight? "))
+
+planet = int(input("Enter a planet number: "))
+
+if planet == 1:
+    destination_weight = earth_weight * 0.38
+    print(f'Weight on Mercury: {destination_weight}')
+elif plannet == 2:
+    destination_weight = earth_weight * 0.91
+    print(f'Weight on Venus: {destination_weight}')
+elif planet == 3:
+    destination_weight = earth_weight * 0.38
+    print(f'Weight on Mars: {destination_weight}')
+elif planet == 4:
+    destination_weight = earth_weight * 2.53
+    print(f'Weight on Jupiter: {destination_weight}')
+elif planet == 5:
+    destination_weight = earth_weight * 1.07
+    print(f'Weight on Saturn: {destination_weight}')
+elif planet == 6:
+    destination_weight = earth_weight * 0.89
+    print(f'Weight on Uranus: {destination_weight}')
+elif planet == 7:
+    destination_weight = earth_weight * 1.14
+    print(f'Weight on Neptune: {destination_weight}')
+else:
+    print('Invalid planet number.')
