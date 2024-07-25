@@ -11,8 +11,9 @@
     # ... and so on
 
     It should look like this but with 25 rows total.
+
+    Output would be 0, 1, 2, 3, 4, each on a seperate line.
 '''
 
-
 for i in range(25):
-    print('* ' * i)
+    print('* ' * (i + 1))
